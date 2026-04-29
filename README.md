@@ -3,7 +3,7 @@
 This is my small and modest collection of drums scores.
 
 They are written using [Lilypond](https://lilypond.org/) and the GUI app [Frescobaldi](https://frescobaldi.org/):
-I prefer this way of writing scores compared to traditional ones like TuxGuitar or MuseScore.
+I prefer this way of writing scores compared to traditional ones like TuxGuitar or MuseScore: WYSIWYM beats WYSIWYG!
 
 ## Drums style
 
