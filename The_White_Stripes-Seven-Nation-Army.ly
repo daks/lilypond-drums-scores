@@ -5,8 +5,8 @@
   indent = 0
 }
 
-\include "_drums_lib.ly"
-\include "_drums_style.ly"
+\include "lib/drums_ornaments.ly"
+\include "lib/drums_style.ly"
 
 \header {
   title = "Seven Nation Army"
@@ -26,7 +26,7 @@ up_changed = \drummode {
   cymc4^\markup \rotate #45 "crash" 
 }  
 \score { << \new DrumStaff << 
-  \set DrumStaff.drumStyleTable = #(alist->hash-table drum-style)
+  \set DrumStaff.drumStyleTable = #(alist->hash-table drums-style)
   \time 8/4
   \hide Staff.TimeSignature
   \up_changed >> >> 
@@ -105,7 +105,7 @@ chorus_final = {
 %%%%%%%%%%%%%%%%%%%%
 \score {
   << \new DrumStaff {
-    \set DrumStaff.drumStyleTable = #(alist->hash-table drum-style)
+    \set DrumStaff.drumStyleTable = #(alist->hash-table drums-style)
     \numericTimeSignature 
     \time 4/4
     \tempo 4 = 95
